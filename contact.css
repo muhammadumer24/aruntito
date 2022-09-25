@@ -5,12 +5,13 @@ form{
     display: flex;
     margin-inline: auto;
     flex-direction: column;
-    width: 50%;
+    width: 40rem;
     padding-block-end: 2em;
-    background-image: linear-gradient(0deg, #CD9CF2 -30.65%, #94ffd6 100%);
+    background-image: linear-gradient(0deg, rgb(205, 156, 242) -30.65%, rgb(246, 243, 255) 100%);
     margin-block-start: 2em;
     border-radius: 20px;
     box-shadow: 0px 0px 7.5px 3px rgba(255, 255, 255, 0.733);
+    max-width: 85%;
 }
 textarea{
     resize: none;
@@ -18,19 +19,26 @@ textarea{
     aspect-ratio: 3/1;
     font-size: 1.1rem;
     border-radius: 5px;
+    background-color: rgba(255,255,255,0.1);
+    counter-reset: black;
 }
 input{
     width:90%;
     padding: 10px;
     font-size: 1.1rem;
     border-radius: 5px;
+    background-color: rgba(255,255,255,.1);
+    color: black;
 }
 input, textarea, label{
     margin-inline:5% ;
 }
 label{
     padding-block-start: 2em;
-    padding-block-end: .5em;
+    padding-block-end: .4em;
+    font-size: .9rem;
+    font-weight: 600;
+    font-family: roboto, sans-serif;
 }
 header{
     position: relative
@@ -42,11 +50,16 @@ input:focus, textarea:focus{
 }
 button{
     border:0;
-    background-image: linear-gradient(45deg, pink, #94ffd6);
+    background-color: rgba(50,43,89,1);
     margin-block-start: 1em;
     padding-block: 1em;
     margin-inline: 5%;
     font-size: 1.25rem;
     font-weight: 600;
-    border-radius: 10px;
+    border-radius: 5px;
+    color: white;
+    transition: all ease-in .2s;
+}
+button:hover{
+    background-color: rgba(50,43,89,.8);
 }
