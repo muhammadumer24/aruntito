@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/9317428498.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
     <link rel="shortcut icon" href="shortcut-icon.png" type="image/x-png">
     <title>Home</title>
 </head>
@@ -16,11 +19,42 @@
             <img src="logo.png" alt="logo" class="logo">
         </a>
         <ul class="flex-header right-header">
-            <li>Product</li>
+            <li class="down">
+                <div class="product">
+                    <p>Products</p>
+                    <div class="product-items display-none">
+                        <ul>
+                            <li><a href="">Likes</a></li>
+                            <li><a href="">Followers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
             <li>FAQ</li>
             <li>Contacat Us</li>
         </ul>
     </header>
+    <header class="media-header">
+        <div>
+            <img src="logo.png" alt="Logo" class="media-logo">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+            <div class="media-header-dropdown display-none">
+                <ul>
+                <li class="down"><div class="product">
+                    <p>Products</p>
+                    <div class="product-items display-none">
+                        <ul>
+                            <li><a href="">Likes</a></li>
+                            <li><a href="">Followers</a></li>
+                        </ul>
+                    </div></li>
+                <li>FAQ</li>
+                <li>Contacat</li>
+            </ul>
+        </div>
+    </header>
+    
     <div class="body">
     <section class="first-section">
         <div class="first-section-div">
@@ -38,50 +72,131 @@
     <p>We provide complex solution for the most popular Social Media services</p>
     <div class="features">
         <div class="feature-list">
-        <img src="feature1" alt="Feature Images">
+            <div class="image-center">
+        <img src="feature1" alt="Feature Images"></div>
         <h3>Customer Support</h3>
         <p>Feel free to ask us about anything that you interested in our service 24/7. Our support will help you anytime.</p>
     </div>
         <div class="feature-list">
-        <img src="feature2" alt="Feature Images">
+            <div class="image-center">
+        <img src="feature2" alt="Feature Images"></div>
         <h3>Fast Delivery</h3>
         <p>We guarantee delivery of our services within the 24 hours. We will make you famous very fast, relax</p>
     </div>
         <div class="feature-list">
-        <img src="feature3" alt="Feature Images">
+            <div class="image-center">
+        <img src="feature3" alt="Feature Images"></div>
         <h3>Real Accounts</h3>
         <p>We provide services only from real accounts. You will receive likes, comments and views only from real people.</p>
     </div>
         <div class="feature-list">
-        <img src="feature4" alt="Feature Images">
+            <div class="image-center">
+        <img src="feature4" alt="Feature Images"></div>
         <h3>Low Prices</h3>
         <p>It's very easy and cheap to become popular in Social Media now. Our prices start from 1.24$ for 500 likes.</p>
     </div>
     </div>
 </section>
-<!-- <section class="third-section">
+<div class="body2">
+<section class="third-section">
     <h2>How it works</h2>
     <p>It's easier that you think. No more hard ways to become popular!</p>
     <div class="images-complex">
-        <span>
-            <i class="fa-solid fa-arrow-pointer"></i>
-        </span>
-        <span  class="dots">
-        </span>
-        <span>
-            <i class="fa-regular fa-user"></i>
-        </span>
-        <span  class="dots">
-        </span>
-        <span>
-            <i class="fa-solid fa-money-check-dollar"></i>
-        </span>
-        <span  class="dots">
-        </span>
-        <span>
-            <i class="fa-solid fa-face-grin-hearts"></i>
-        </span>
+        <div class="images-complex-container">
+            <div class="image-center">
+            <i class="fa-solid fa-arrow-pointer"></i></div>
+            <h3>Choose your package</h3>
+            <p>Select a package which you want to buy based on your needs</p>
+        </div>
+        <div  class="dots">
+        </div>
+        <div class="images-complex-container">
+            <div class="image-center">
+            <i class="fa-regular fa-user"></i></div>
+            <h3>Fill out your profile</h3>
+            <p>Provide us details about what you need to boost now</p>
+        </div>
+        <div  class="dots">
+        </div>
+        <div class="images-complex-container">
+            <div class="image-center">
+            <i class="fa-solid fa-money-check-dollar"></i></div>
+            <h3>Pay for the service</h3>
+            <p>You can pay via card or any other available method</p>
+        </div>
+        <div  class="dots">
+        </div>
+        <div class="images-complex-container">
+            <div class="image-center">
+            <i class="fa-solid fa-face-grin-hearts"></i></div>
+            <h3>Enjoy your popularity</h3>
+            <p>We will create and proceed with an order and inform you once done</p>
+        </div>
     </div>
-</section> -->
+    <!-- <div class="image-caption">
+        <div class="caption-of-images">
+        </div>
+        <div class="caption-of-images">
+        </div>
+        <div class="caption-of-images">
+        </div>
+        <div class="caption-of-images">
+        </div>
+    </div> -->
+</section>
+</div>
+<section class="forth-section">
+    <h2>Reviews</h2>
+    <p>Our happy customers feedback</p>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="review-container">
+                <div class="review-image-container" style="background-image: url(review1.jpg)"></div>
+            <h3>Maggire Valentine</h3>
+            <p>I was very happy when received 500 real subscribers in 1 hour after. Good job guys</p>
+          </div>
+        </div>
+          <div class="carousel-item">
+            <div class="review-container">
+                <div class="review-image-container" style="background-image: url(review2.jpg)"></div>
+            <h3>Peter Thompson</h3>
+            <p>Thank you for your cheap prices. Now I can make my shop instagram account very popular</p>
+          </div>
+        </div>
+          <div class="carousel-item">
+            <div class="review-container">
+                <div class="review-image-container" style="background-image: url(review3.jpg)"></div>
+            <h3>Bobby Taylor</h3>
+            <p>It's amazing. No more fake accounts in my followers, only real people. Thanks!</p>
+          </div>
+        </div>
+          <div class="carousel-item">
+            <div class="review-container">
+                <div class="review-image-container" style="background-image: url(review4.jpg)"></div>
+            <h3>Sam Smith</h3>
+            <p>I don't know how you did it but now my wife envies me because I have more followers than hers.</p>
+          </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+<footer>
+    <p>&copy; 2022 All Rights Reserved</p>
+</footer>
 </body>
 </html>
