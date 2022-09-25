@@ -400,6 +400,9 @@ footer p{
     .feature-list{
         max-width:44rem
     }
+    .review-image-container{
+        margin-inline: 40.5%;
+    }
 }
 .media-header-dropdown>ul>li{
     line-height: 2em;
