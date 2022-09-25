@@ -1,0 +1,52 @@
+p{
+    text-align: center;
+}
+form{
+    display: flex;
+    margin-inline: auto;
+    flex-direction: column;
+    width: 50%;
+    padding-block-end: 2em;
+    background-image: linear-gradient(0deg, #CD9CF2 -30.65%, #94ffd6 100%);
+    margin-block-start: 2em;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7.5px 3px rgba(255, 255, 255, 0.733);
+}
+textarea{
+    resize: none;
+    padding: 10px;
+    aspect-ratio: 3/1;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+input{
+    width:90%;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+input, textarea, label{
+    margin-inline:5% ;
+}
+label{
+    padding-block-start: 2em;
+    padding-block-end: .5em;
+}
+header{
+    position: relative
+}
+input:focus, textarea:focus{
+    outline:4px solid rgb(61, 181, 255);
+    outline-offset:5px;
+    outline-style: auto;
+}
+button{
+    border:0;
+    background-image: linear-gradient(45deg, pink, #94ffd6);
+    margin-block-start: 1em;
+    padding-block: 1em;
+    margin-inline: 5%;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
