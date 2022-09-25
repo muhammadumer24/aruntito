@@ -129,7 +129,7 @@ h2{
     font-weight: 800;
 }
 section p{
-    color: rgba(255, 255, 255, 0.678);
+    color: rgba(0, 0, 0, 0.71);
     font-family: 'Roboto', sans-serif;
     line-height: 1.5em;
     font-size: 1.1rem;
@@ -175,6 +175,7 @@ section p{
     font-family: roboto, sans-serif, Arial, Helvetica;
     line-height: 1.5em;
     padding-block-end: 3.5em;
+    color: rgba(255, 255, 255, 0.637);
 }
 .feature-list{
     max-width: 15rem;
@@ -191,7 +192,7 @@ h3{
 }
 .feature-list p{
     font-size: 90%;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.71);
     padding-block: 3em;
     font-family: sans-serif, roboto;
     font-weight: 600;
@@ -278,6 +279,7 @@ h3{
 }
 .forth-section p{
     padding-block-end: 4em;
+    color: rgba(255, 255, 255, 0.658);
 }
 .carousel-item h3, .carousel-item p{
     color:white;
@@ -321,10 +323,12 @@ footer{
 footer p{
     padding: 1em;
 }
+.actually-none{
+    display: none;
+}
 /* Working for media queries */
 .media-logo{
     width:40%;
-    margin-inline-start: 31%;
 }
 .fa-bars{
     font-size: 175%;
@@ -341,6 +345,10 @@ footer p{
 }
 .media-header{
     display: none;
+}
+.product-items a{
+    padding-top: 0;
+    margin-top: 1em;
 }
 @media screen and (max-width:1000px){
     .media-header-dropdown{
@@ -375,10 +383,6 @@ footer p{
         border-right: 10px dotted white;
         width:50%;
         height: 60px;
-    }
-    .product-items a{
-        padding-top: 0;
-        margin-top: 1em;
     }
 }
 @media screen and (max-width:1200px){
@@ -416,4 +420,11 @@ footer p{
 .product-items>ul{
     display: inline-flex;
     flex-direction: column;
+}
+.product-items>ul>li{
+    padding: .5em;
+}
+.product-items>ul>li:first-of-type{
+    padding-top: 0;
+    margin-top: 1em;
 }
