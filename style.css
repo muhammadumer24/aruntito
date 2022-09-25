@@ -218,7 +218,7 @@ h3{
     flex-direction: column;
 }
 .third-section h2, .third-section p{
-    color: white;
+    color: black;
     text-align: center;
     margin: 0;
 }
