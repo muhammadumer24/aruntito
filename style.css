@@ -76,6 +76,9 @@ header{
 .right-header li:last-of-type{
     margin-inline-end: 1em;
 }
+header li a{
+    color: black;
+}
 .down{
     display: flex;
     vertical-align: baseline;
@@ -184,6 +187,9 @@ section p{
     max-width: 15rem;
     background-image:linear-gradient(45deg, pink, #5ed6b3);
 }
+.feature-list h3{
+    color:black
+}
 .feature-list img{
     max-width:100%;
     max-height: fit-content;
@@ -232,7 +238,7 @@ h3{
 }
 .images-complex-container h3{
     font-family: roboto, sans-serif;
-    color:rgba(255, 255, 255)
+    color:black
 }
 .image-caption{
     display: flex;
@@ -240,7 +246,7 @@ h3{
 }
 .third-section p{
     padding-block-end: 3em;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.808)
 }
 .body2{
     position:relative;
@@ -285,7 +291,7 @@ h3{
     color: rgba(255, 255, 255, 0.658);
 }
 .carousel-item h3, .carousel-item p{
-    color:white;
+    color:black;
     padding: 0;
 }
 .review-container{
